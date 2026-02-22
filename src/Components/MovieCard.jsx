@@ -1,9 +1,9 @@
 
 import React from "react";
 
-export const MovieCard = ({
+export default function MovieCard  ({
   movie: { title, vote_average, poster_path, release_date, original_language },
-}) => {
+})  {
   return (
     <li className="movie-card group">
       <div className="relative overflow-hidden rounded-2xl">

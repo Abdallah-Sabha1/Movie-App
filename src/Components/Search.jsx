@@ -1,7 +1,7 @@
 
  import React from 'react';
 
-export const Search = ({ searchTerm, setSearchTerm }) => {
+export  default function Search  ({ searchTerm, setSearchTerm })  {
   return (
     <div className="search w-full max-w-2xl mx-auto px-4">
       <div className="relative flex items-center bg-light-100/5 rounded-xl px-4 py-3 focus-within:ring-2 focus-within:ring-indigo-500/50 transition-all">
